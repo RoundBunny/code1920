@@ -29,11 +29,20 @@ var codonToAminoMap = map[string]*AminoAcid{
 	"UGU": &Cysteine, "UGC": &Cysteine, "UGA": nil, "UGG": &Tryptophan,
 
 	// CUU through CGG
-	// TODO: Add 16 entries
+	"CUU": &Leucine, "CUC": &Leucine, "CUA": &Leucine, "CUG": &Leucine,
+	"CCU": &Proline, "CCC": &Proline, "CCA": &Proline, "CCG": &Proline,
+	"CAU": &Histidine, "CAC": &Histidine, "CAA": &Glutamine, "CAG": &Glutamine,
+	"CGU": &Arginine, "CGC": &Arginine, "CGA": &Arginine, "CGG": &Arginine,
 
 	// AUU through AGG
-	// TODO: Add 16 entries
+	"AUU": &Isoleucine, "AUC": &Isoleucine, "AUA": &Isoleucine, "AUG": &Methionine,
+	"ACU": &Threonine, "ACC": &Threonine, "ACA": &Threonine, "ACG": &Threonine,
+	"AAU": &Asparagine, "AAC": &Asparagine, "AAA": &Lysine, "AAG": &Lysine,
+	"AGU": &Serine, "AGC": &Serine, "AGA": &Arginine, "AGG": &Arginine,
 
 	// GUU through GGG
-	// TODO: Add 16 entries
+	"GUU": &Valine, "GUC": &Valine, "GUA": &Valine, "GUG": &Valine,
+	"GCU": &Alanine, "GCC": &Alanine, "GCA": &Alanine, "GCG": &Alanine,
+	"GAU": &AsparticAcid, "GAC": &AsparticAcid, "GAA": &GlutamicAcid, "GAG": &GlutamicAcid,
+	"GGU": &Glycine, "GGC": &Glycine, "GGA": &Glycine, "GGG": &Glycine,
 }
